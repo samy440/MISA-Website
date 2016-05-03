@@ -1,0 +1,53 @@
+<html>		
+        <head>
+                <title> MIMM 211 </title>
+                <style>
+                body {
+                        background-color: lightgrey;
+                        margin: 40px auto;
+                        max-width: 700px;
+                        line-height: 1.6;
+                        font-size: 18px;
+                        font-color: #444;
+                        font-padding:0 10px
+                }
+                h1,h2,h3 {
+                        line-height:1.2
+                }
+                ul {
+                        list-style-type: none;
+                        margin: 0;
+                        padding: 0;
+                        overflow: hidden;
+                        background-color:#333;
+                        position: fixed;
+                        top: 0;
+                        width: 700px;
+                }
+                li {
+                        float: left;
+                }
+                li navbarop {
+                        display: inline-block;
+                        color: white;
+                        text-align: center;
+                        padding: 14px 16px;
+                }
+                li navbarop:hover {
+                        background-color: #112;
+                }
+                .current {
+                        bacground-color: #4CAF50;
+                }
+                </style>
+        </head>
+        <body>
+        <!--This is for the menu bar-->
+                <img src="" (Logo)><h1>Microbiology and Immunology Student Association</h1>
+                <ul>
+                        <li navbarop>Home</li>
+                        <li navbarop>Not here</li>
+                        <li navbarop>MIMM</li>
+                </ul>
+        </body>
+</html>

@@ -1,0 +1,169 @@
+/* THIS SECTION IS FOR THE BODY/GENERAL PAGE LAYOUT */
+body { 
+	width: 100%; 
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	font-family: Calibri, sans-serif; 
+	text-align: center;
+}
+
+.content{
+	width: 80%;
+	margin-right: 10%;
+	margin-left: 10%;
+}
+/* END OF BODY/GENERAL PAGE LAYOUT SECTION */
+
+.center{
+	text-align: center;
+}
+/* THIS SECTION IS FOR THE PHOTO GALLERY */
+.thumbnails img {
+    height: 80px;
+    border: 4px solid #555;
+    padding: 1px;
+    margin: 0 10px 10px 0;
+}
+
+.thumbnails img:hover {
+    border: 4px solid #00ccff;
+    cursor: pointer;
+}	
+
+.preview img {
+    border: 4px solid #444;
+    padding: 1px;
+    width: 630px;
+}
+/* END OF SECTION FOR PHOTO GALLERY */
+/* THIS SECTION IS FOR THE NAVBAR */
+
+#navbar {
+	text-align: center;
+	top: 0;
+}
+
+#navbar ul {
+	position: fixed;
+	list-style-type: none;
+	top: 0;
+	margin-top: 0;
+	width: 100%;
+	padding: 0;
+	background-color: black;
+	overflow: hidden;
+	text-align: center;
+}
+
+#navbar li {
+	padding-top: 0;
+	padding-bottom: 0;
+	display: inline-block; 
+	text-align: center;
+
+}
+
+#navbar a {
+	/* display: block; */
+	display: inline-block; 
+	width: auto;
+	padding: 24px 12px;
+	text-align: center;
+	background-color: black;
+	text-decoration: none;
+	color:white;
+}
+
+#navbar img {
+}
+
+#navbar a:hover, a:active {
+	background-color: grey;
+	/* text-decoration: underline; */
+}
+
+#navbar a:visited {
+	color:white;
+	text-decoration: none;
+}
+
+/*END OF NAVBAR SECTION */
+
+/* THIS SECTION IS FOR THE HOME TABLE */
+#home-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+#home-table tr, td {
+	border: 1px solid black;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+/* END OF HOME TABLE SECTION */
+
+/* THIS SECTION IS FOR THE ABOUT MISA TABLE */
+#About-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+
+#About-table tr {
+	border: 1px solid black;
+}
+/* END OF ABOUT MISA TABLE SECTION */
+
+/* THIS SECTION IS FOR THE MEDIA TABLE */
+#Media-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+
+#Media-table tr {
+	border: 1px solid black;
+}
+/* END OF MEDIA TABLE SECTION */
+
+/* THIS SECTION IS FOR THE EVENTS TABLE */
+#Events-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+
+#Events-table tr, td {
+	border: 1px solid black
+}
+/* END OF EVENTS TABLE SECTION */
+
+/* THIS SECTION IS FOR THE MISA COUNCIL TABLE */
+#Council-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+
+#Council-table tr, td {
+	border: 1px solid black
+}
+/* END OF MISA COUNCIL TABLE SECTION */
+
+/* THIS SECTION IS FOR THE ACADEMIC AFFAIRS TABLE */
+#Academics-table {
+	border: 1px solid black;
+	height: 100vh;
+}
+
+#Academics-table tr, td {
+	border: 1px solid black
+}
+/* END OF ACADEMIC AFFAIRS TABLE SECTION */
+
+
+/* THIS SECTION IS FOR THE FONTS */
+#events-bk {
+	color: black;
+	font-weight: bolder;
+	font-size: 3em;
+}
+
+/* END OF SECITON FOR THE FONTS */

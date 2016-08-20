@@ -1,0 +1,397 @@
+﻿@font-face{
+	font-family: "Raleway";
+    src: url(./Font/Raleway-Regular.ttf);
+}
+body { 
+	width: 100%; 
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-right: 0;
+	margin-left: 0;
+	text-align: center;
+	line-height: 1.4;
+	background-color: rgba(234, 244, 246, 1);;
+}
+.content{
+	padding-right: 0%;
+	padding-left: 0%;
+	border-style: hidden;
+}
+h4 {
+	vertical-align: top;
+}
+.center{
+	text-align: center;
+}
+#navbar {
+	font-family: Raleway;
+	text-align: center;
+	top: 0;
+	border-bottom: 2px solid white;
+	padding-bottom: 2px;
+	z-index: 1;
+}
+#navbar ul {
+	font-family: Raleway;
+	position: fixed;
+	list-style-type: none;
+	top: 0;
+	margin-top: 0;
+	width: 100%;
+	padding: 0;
+	background-color: #FFFFFF;
+	overflow: hidden;
+	text-align: center;
+}
+#navbar li {
+	font-family: Raleway;
+	padding-top: 0;
+	padding-bottom: 0;
+	display: inline-block; 
+	text-align: center;
+	border: 1px solid white;
+}
+#navbar a {
+	font-family: Raleway;
+	display: inline-block; 
+	width: auto;
+	padding: 24px 12px;
+	text-align: center;
+	background-color: #FFFFFF;
+	text-decoration: none;
+	color: #062F5B;
+}
+#navbar a:hover, a:active {
+	font-family: Raleway;
+	text-decoration: underline;
+}
+#navbar a:visited {
+	font-family: Raleway;
+	text-decoration: none;
+}
+.offset {
+	display: block;
+	position: relative;
+	bottom: 97px;
+	vertical-align: top;
+}
+#home.content {
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-image: url('ifi2.jpg');
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom; 
+	min-height: 100vh;
+}
+#home-table {
+	font-family: Raleway;
+	border: 0px solid black;
+	border-collapse: collapse;
+	min-height: 100vh;
+	color: #FDF8FF;
+}
+#home-table tr, td {
+	font-family: Raleway;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+#home-table.fademe {
+	background-color:rgba(6, 47, 91, 0.4);
+}
+#about.content {
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	/*background-color: #01305C;*/
+	background-image: url(duff.png);
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top; 
+	min-height: 100vh;
+}
+#About-table {
+	font-family: Raleway;
+	color: #FDF8FF;
+	border-collapse: collapse;
+	text-align: center;
+}
+#About-table tr, td {
+	font-family: Raleway;
+	border: 0px solid white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#media.content {
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-color: rgba(234, 244, 246, 1);
+	/*min-height: 100vh;*/
+}
+#Media-table {
+	font-family: Raleway;
+	border: 0px solid black;
+	color: #062F5B;
+	border-collapse: collapse;
+	/*min-height: 100vh;*/
+}
+#Media-table tr, td {
+	font-family: Raleway;
+	border: 0px solid black;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#Media-subtable {
+	font-family: Raleway;
+	border: 30px solid blue;
+	color: #062F5B;
+	border-collapse: collapse;
+	padding-top: 20px;
+	margin: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	width: auto;
+	height: 300px;
+	overflow: hidden;
+}
+.Media-subtable-td {
+	border: 10px solid red;
+	padding: 10px;
+	margin: 10px;
+	height: 50%;
+	overflow: hidden;
+}
+.Media-subtable-tr {
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+	height: 100px;
+	overflow: hidden;
+}
+
+#events.content {
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-image: url("events.purpfaded.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top; 
+	min-height: 100vh;
+}
+#Events-table {
+	font-family: Raleway;
+	border: 0px solid black;
+	border-collapse: collapse;
+	color: #FDF8FF;
+}
+#Events-table tr, td {
+	font-family: Raleway;
+	border: 0px solid white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+#eventssubtable {
+	font-family: Raleway;
+	background-color: rgba(1,48,92,0.3);
+	border-style: hidden;
+	text-align: center;
+	opacity: 1.0;
+	outline-style: outset;
+	outline-color: purple;
+}
+#council.content{
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-image: url("misa.purp.png");
+	background-position: center;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	background-position: top; 
+	min-height: 100vh;
+}
+#Council-table {
+	font-family: Raleway;
+	border: 0px solid black;
+	border-collapse: collapse;
+	color: #FDF8FF;
+	/*background-color: rgba(6, 47, 91, 0.2);*/
+	min-height: 100vh;
+}
+#Council-table tr, td {
+	font-family: Raleway;
+	border: 0px solid black;
+	padding-left: 5%;
+	padding-right: 5%;
+	min-height: 100vh;
+}
+#Council-table.faded{
+	background-color: rgba(6, 47, 91, 0.4);
+	font-family: Raleway;
+	border: 0px solid white;
+	padding-left: 5%;
+	padding-right: 5%;
+	line-height: 1.8;
+}
+#academics.content{
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+	background-image: url("mclenn.purp.png");
+	background-position: center;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: top; 
+	min-height: 100vh;
+}
+#Academics-table {
+	font-family: Raleway;
+	border: 0px solid black;
+	border-collapse: collapse;
+	color: #4B0082;
+	text-shadow: 2px 2px white;
+	min-height: 100vh;
+}
+#Academics-table tr, td {
+	font-family: Raleway;
+	border: 0px solid black;
+	min-height: 100vh;
+}
+#Academics-table.faded {
+	background-color: rgba(255, 235, 205, 0.4);
+	padding-top: 50px;
+	min-height: 100vh;
+}
+#contact.content {
+	font-family: Raleway;
+	padding-right: 0%;
+	padding-left: 0%;
+}
+#contact-table {
+	font-family: Raleway;
+	background-color: #01305C;
+	color: #FDF8FF;
+	border-collapse: collapse;
+}
+#contact-table tr, td {
+	font-family: Raleway;
+	border: 0px solid white;
+	padding-left: 5%;
+	padding-right: 5%;
+}
+h4.title {
+	font-family: Raleway;
+	font-size: 300%;
+	font-weight: bolder;
+}
+input[type="submit"] {
+    background-color: rgba(234, 244, 246, 0.9) ;
+    width: 70px; 
+    height: 30px; 
+    border: 0;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+    color: #01305C;
+}
+input[type="submit"]:hover{
+    background-color: rgba(1, 48, 92, 0.7) ;
+    width: 70px; 
+    height: 30px; 
+    border: 0;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+input[type="reset"] {
+    background-color: rgba(234, 244, 246, 0.9) ;
+    width: 70px; 
+    height: 30px; 
+    border: 0;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+    color: #01305C;
+}
+.mySlides {
+	border-style: groove;
+	border-color: purple;
+	border-width: 10px;
+	max-width: 100%;
+	height: auto;
+}
+input[type="reset"]:hover{
+    background-color: rgba(1, 48, 92, 0.7) ;
+    width: 70px; 
+    height: 30px; 
+    border: 0;
+    font-family: Raleway;
+    font-weight: bold;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: underline;
+}
+.album-link-thumbnail {
+	background-repeat: no-repeat;
+	border: 4px solid #694489;
+	opacity: 0.6;
+	max-width: 200px;
+	max-height: 134px;
+	width: auto;
+    transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -webkit-transition: opacity 1s ease-in-out;
+    -webkit-transform: rotate(0);
+	-moz-transform: rotate(0);
+	transform: rotate(0);
+}
+.album-link-thumbnail:hover {
+	border: 4px solid purple;
+	opacity: 1.0;
+    transition: opacity .55s ease-in-out;
+    -moz-transition: opacity .55s ease-in-out;
+    -webkit-transition: opacity .55s ease-in-out;
+    -webkit-transform: rotate(0);
+	-moz-transform: rotate(0);
+	transform: rotate(0);
+}
+#album-link .caption {
+	text-align: center;
+	color: purple;
+	position: relative;
+	bottom: 10px;
+	visibility: hidden;
+}
+#album-link:hover .caption {
+	text-decoration: none;
+	visibility: visible;
+}
+#map {
+	/*max-width: 100%;
+	max-height: auto;*/
+	border: 3px groove yellow;
+}
+.responsive-iframe-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+}
+.responsive-iframe-container iframe,   
+.vresponsive-iframe-container object,  
+.vresponsive-iframe-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+}

@@ -1,0 +1,23 @@
+Todo:
+Coucil:
+    update general photo
+    update councilmember text
+    update councilmember photos
+    Jackson will follow-up about the new text and photos
+
+Upcoming Events:
+    wait for Jackson to follow-up about calendars
+    link icons and iframe to new calendars if need be
+
+Media:
+    update images to newer pictures
+    update hardlinks to more recent albums
+    Jackson will follow-up on this
+
+Academic Affairs:
+    update hardlink to curriculum
+    update NTCs hardlink (Jackson will follow-up on the link)
+
+Contact Us:
+    Sponsors:
+        Remove Alouettes? Kaplan instead of Princeton? Jackson will-follow up on this
